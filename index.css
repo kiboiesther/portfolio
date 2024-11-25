@@ -1,0 +1,490 @@
+
+/*----HOME-----*/
+.index{
+    background-image: url(images/tech1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.nav-bar{
+    width: 100%;
+    height: 55px;
+    padding-left: 15px;
+    padding-left: 15px;
+    background-color: rgb(16, 176, 229);
+    margin-top: 40px;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+}
+.nav-bar li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.my-photo{
+    background-color: black;
+    margin-top: 9%;
+    margin-right: 75%;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.my-photo img{
+height: 200px;
+border-radius: 50%;
+margin-top: 50px;
+}
+.my-photo p{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: serif;
+}
+footer{
+    height:200px ;
+    background-color: rgb(16, 176, 229);
+    margin-top: 6%;
+}
+.footer-container{
+    width: 100%;
+    padding-top: 20px;
+   width: 100%;
+}
+.footer-nav{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-nav a{
+    text-decoration: none;
+    padding: 20px;
+    background-color:white;
+    margin: 10px;
+    border-radius:50%;
+}
+.footer-nav a i{
+    font-size: 2em;
+    color: black;
+    opacity:0.9 ;
+}
+.footer-nav a:hover{
+    background-color: silver;
+    transition: 0.5s;
+}
+.footer-nav a i:hover{
+    color: white;
+    transition: 0.5s;
+}
+.footer-nav p{
+    font-size: 20px;
+    color: white;
+}
+.footer-bottom{
+    background-color:#000;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+.footer-bottom{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px 5px;
+    color: crimson;
+}
+
+
+/*-----ABOUT-----*/
+.about{
+    background-image: url(images/tech5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about-container1{
+background-color: white;
+padding: 10px;
+border-radius: 10px;
+margin-left: 25px;
+margin-top: 5%;
+width: 40%;
+}
+.head{
+    display: block;
+    color: rgb(16, 176, 229);
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.personal-photo{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    
+}
+.description{
+    padding-left: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black;
+    margin-top: 10px;
+}
+.about-container2{
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:2%;
+    width: 40%;
+    margin-left: 58%;
+    margin-right:25px;
+}
+
+
+/*---- PORTFOLIO------*/
+.portfolio{
+        background-image: url(images/tech3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow: auto;
+}
+.port-container1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 40%;
+}
+.port-container2{
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:0px;
+    width: 40%;
+    margin-left: 58%;
+    margin-right:25px;
+}
+.contain-language{
+    background-color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.languages{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    
+}
+.logo1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.cv-link{
+    columns: black;
+    text-decoration: none;
+}
+
+
+/*-----CONTACT------*/
+.contact-background{
+    background-image: url(images/tech4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.conta{
+    color: rgb(16, 176, 229);
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background-color: white;
+    position: absolute;
+    margin-top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+.form{
+    border: 1px solid black;
+    margin: 7px 0px;
+    padding: 6px 20px;
+    border-radius: 8px;
+}
+.form label{
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+}
+.form input,
+.form textarea{
+width: 100%;
+font-size: 20px;
+margin-top: 5px;
+border: none;
+background: none;
+outline: none;
+}
+.button-contact{
+    background-color:rgb(16, 176, 229);
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    transition-duration: 0.05s;
+   align-items: center;
+   padding: 14px 0px;
+   text-decoration: none;
+   text-transform: uppercase;
+   margin-top: 8px;
+   cursor: pointer;
+}
+.button-contact a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.button-contact:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.button-contact a:active{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    opacity: 0.4;
+}
+
+
+
+/*-----CV------*/
+.intro{
+    text-align: start;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.sum{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 8px;
+}
+.cv{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+header{
+    text-align: center;
+    font-weight: bold;
+}
+.div-table{
+    margin-top: 35px;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th,td{
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #f2f2f2;
+}
+tr:nth-child(even){
+    background-color: #f5f5f5;
+}
+ .download a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.download a:hover{
+    color: #0077cc;
+}
+.skill{
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+.download{
+    background-color: #333;
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+@media only screen and (max-width:600px) {
+
+    .index{
+        margin: 0px;
+    }
+    .nav-bar{
+        height: 40px;
+        margin-top: 20px;
+        padding: 0px;
+        width: 100%;
+    }
+    .nav-bar li a{
+        margin: 0px 0px 0px 0px;
+        
+        font-size: 10px; 
+    }
+    .nav-bar ul{
+        width: 100%;
+        padding: 0px;
+        height: 30px;
+        margin: 0px;
+    }
+   .my-photo{
+        margin-top: 75%;
+        width: 100%;
+    }
+    .my-photo img{
+    height: 150px;
+    }
+    .my-photo p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    footer{
+        margin-top: 15%;
+        width: 100%;
+    }
+    .footer-nav a{
+        text-decoration: none;
+        padding: 20px;
+        background-color:white;
+        margin: 10px;
+        border-radius:50%;
+    }
+    .footer-nav a i{
+        font-size:15px;
+    }
+    .footer-nav p{
+        font-size: 10px;
+    }
+    .footer-nav h3{
+        font-size: 15px;
+    }
+
+    /*-----ABOUT-----*/
+
+.about-container1{
+padding: 5px;
+margin-left: 0px;
+margin-top: 2%;
+width: 100%;
+}
+.head{
+    font-size: 20px;
+    margin: 5px;
+}
+.contain{
+    display: inline-block;
+}
+.personal-photo{
+    width: 150px;
+    height: 120px;
+}
+.description{
+    padding-left: 0px;
+    font-size: 13px;
+    margin: 0px;
+}
+.about-container2{
+    padding: 5px;
+    margin-top:10%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right:0px;
+}
+/*---- PORTFOLIO------*/
+
+.port-container1{
+padding: 5px;
+margin-left: 0px;
+width: 100%;
+}
+.port-container2{
+padding: 5px;
+margin-top:15px;
+width: 100%;
+margin-left: 0px;
+margin-right:0px;
+}
+.contain-language{
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 25px;
+padding: 5px;
+border-radius: 10px;
+}
+.languages{
+display: block;
+}
+.logo1{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+.contact-form{
+    margin-top: 80%;
+}
+}
